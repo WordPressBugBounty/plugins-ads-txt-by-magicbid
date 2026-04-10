@@ -3,7 +3,7 @@
  * Plugin Name:       Ads.txt File Manager By Magicbid
  * Plugin URI:        https://magicbid.ai/contact-us/?utm_source=wordpress-plugin&utm_medium=wordpress-plugin&utm_campaign=wordpress-plugin-traffic&utm_id=wordpress-plugin
  * Description:       Easily manage your site's both ads.txt and app-ads.txt file directly from the WordPress admin, with automatic versioned backups.
- * Version:           2.2.0
+ * Version:           2.2.1
  * Author:            Magicbid.ai
  * Author URI:        https://magicbid.ai/?utm_source=wordpressplugin&utm_medium=wordpressplugin&utm_campaign=wordpressplugintraffic&utm_id=wordpressplugin
  * License:           GPL-2.0-or-later
@@ -78,3 +78,4 @@ function mb_plgn_ads_txt_check_db_version() {
 }
 
 require_once MB_PLGN_ADS_TXT_PATH . 'functions/functions.php';
+require_once MB_PLGN_ADS_TXT_PATH . 'views/review-notice.php';

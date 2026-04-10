@@ -4,7 +4,7 @@ Tags: ads.txt, app-ads.txt, monetization, publisher, google ads
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,9 @@ Absolutely! This tool was built to simplify ads.txt compliance for platforms lik
 ---
 
 == Changelog ==
+
+= 2.2.1 =
+* New Update: Asking user review.
 
 = 2.2.0 =
 * Fixed a bug "Subscribe Box Not Collapsed after minimize".
