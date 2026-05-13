@@ -24,8 +24,8 @@ function mb_plgn_ads_txt_admin_page()
 // Enqueue assets
 add_action('admin_enqueue_scripts', function ($hook) {
     if ($hook === 'toplevel_page_mb-plgn-ads-txt-file-manager') {
-        wp_enqueue_style('mb-plgn-ads-txt-style', MB_PLGN_ADS_TXT_URL . 'assets/style.css', [], '2.0.0');
-        wp_enqueue_script('mb-plgn-ads-txt-script', MB_PLGN_ADS_TXT_URL . 'js/admin.js', ['jquery'], '2.0.1', true);
+        wp_enqueue_style('mb-plgn-ads-txt-style', MB_PLGN_ADS_TXT_URL . 'assets/style.css', [], '2.0.1');
+        wp_enqueue_script('mb-plgn-ads-txt-script', MB_PLGN_ADS_TXT_URL . 'js/admin.js', ['jquery'], '2.0.3', true);
         wp_localize_script('mb-plgn-ads-txt-script', 'mbPlgnAdsTxtAjax', [
             'ajax_url' => admin_url('admin-ajax.php'),
             'nonce' => wp_create_nonce('mb_plgn_ads_txt_nonce')

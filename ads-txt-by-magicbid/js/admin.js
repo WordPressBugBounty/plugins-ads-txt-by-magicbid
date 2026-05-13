@@ -210,3 +210,9 @@ jQuery(document).ready(function ($) {
         });
     });
 });
+
+jQuery(document).on('click', '.mb_plgn_ads-review-notice .notice-dismiss', function () {
+    jQuery.post(mbPlgnAdsTxtAjax.ajax_url, {
+        action: 'mb_plgn_ads_dismiss_review_notice'
+    });
+});

@@ -42,16 +42,6 @@ function mb_plgn_ads_review_notice()
 <?php
 }
 
-add_action('admin_enqueue_scripts', function () {
-    wp_add_inline_script('jquery', "
-        jQuery(document).on('click', '.mb_plgn_ads-review-notice .notice-dismiss', function() {
-            jQuery.post(ajaxurl, {
-                action: 'mb_plgn_ads_dismiss_review_notice'
-            });
-        });
-    ");
-});
-
 add_action('wp_ajax_mb_plgn_ads_dismiss_review_notice', function () {
     update_option('mb_plgn_ads_review_dismissed', 1);
     wp_die();
