@@ -2,7 +2,7 @@
 Contributors: ratneshmagicbid
 Tags: ads.txt, app-ads.txt, monetization, publisher, google ads
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.2
 Stable tag: 2.2.2
 License: GPLv2 or later
